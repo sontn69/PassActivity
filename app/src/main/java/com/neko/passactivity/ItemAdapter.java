@@ -57,6 +57,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
 
     }
 
+    private ClickListener clickListener;
+
     public interface ClickListener {
         void onItemClick(String style);
     }
