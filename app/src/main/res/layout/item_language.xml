@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/im_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="#D74618" />
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColor="#D74618"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Các tập tin rác"
+            android:textColor="#6D7B81"
+            android:textSize="10sp" />
+    </LinearLayout>
+</layout>

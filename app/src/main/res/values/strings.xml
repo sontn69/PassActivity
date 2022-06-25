@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PassActivity</string>
+    <string name="name">Name:</string>
+    <string name="sdt">SDT:</string>
+    <string name="nhap_thong_tin">Nhap thong tin</string>
+    <string name="hien_thi_thong_tin">Hien thi thong tin</string>
+</resources>
